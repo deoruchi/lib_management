@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Library Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Library Management System is a web application built using React and Bootstrap, with the integration of the React ecosystem including React Router for routing and JSON Server to perform CRUD (Create, Read, Update, Delete) operations on a library database.
 
-## Available Scripts
+This application allows users to manage a library's collection of books through an intuitive and user-friendly interface.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Perform general CRUD operations on Books and Members
+- Issue a book to a member
+- Issue a book return from a member
+- Search for a book by name and author
+- Avails to pay fixed fee on the books
+- Can find debt of the each member .If their debt is more than 500 in total then it gives warning.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: A JavaScript library for building user interfaces.
+- React-Bootstrap: A popular CSS framework for creating responsive and visually appealing designs.
+- React Router: A library for adding routing capabilities to React applications, enabling single-page applications with multiple views.
+- JSON Server: A fake REST API server that uses a JSON file as a database.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with the Library Management System on your local machine, follow these steps:
 
-### `npm run build`
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/your-username/library-management-system.git
+   cd library-management-system
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
+   ```
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start JSON Server:**
+   ```
+   npm run json-server
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   This will start the JSON Server and provide a mock API to perform CRUD operations on the library's book collection.
 
-### `npm run eject`
+4. **Start the React application:**
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   This will start the development server and open the application in your default web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Interact with the application:**
+   You can now use the Library Management System to perform various operations on the books in the library.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `public`: Contains static assets and the HTML template for the application.
+- `src`:
+  - `components`: Contains React components used throughout the application.
+  - `Data`: Contains the JSON file used by JSON Server to simulate a database.
+  - `App.js`: The main React component that sets up routing and renders different pages.
+  - `index.js`: The entry point of the React application.
 
-## Learn More
+## Preview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+https://github.com/deoruchi/lib_management/assets/79249274/2f737735-1ade-4015-910e-581dfeb6ae2c
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
