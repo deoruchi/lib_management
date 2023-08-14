@@ -1,6 +1,6 @@
 # Library Management System
 
-The Library Management System is a web application built using React and Bootstrap, with the integration of the React ecosystem including React Router for routing and JSON Server to perform CRUD (Create, Read, Update, Delete) operations on a library database.
+The Library Management System is a web application built using React and Bootstrap, with the integration of the React ecosystem including React Router for routing,Redux Toolkit for state management, and JSON Server to perform CRUD (Create, Read, Update, Delete) operations on a library database.
 
 This application allows users to manage a library's collection of books through an intuitive and user-friendly interface.
 
