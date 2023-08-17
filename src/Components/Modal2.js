@@ -22,7 +22,7 @@ function Models2() {
   }
 
   async function payReturnBook(id) {
-    //on return and pay : the pay amount becomes 0 and borrow becomes fals
+    //on return and pay : the pay amount becomes 0 and borrow amount becomes false
     const ndata = { ...data.book, borrow: false, payamount: 0 };
 
     await axios
